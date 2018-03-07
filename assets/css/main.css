@@ -1,0 +1,181 @@
+/*------------------------------------*\
+  #GLOBAL
+\*------------------------------------*/
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+a, a:focus, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  color: #333333;
+}
+
+
+
+
+/*------------------------------------*\
+  #CONTAINER
+\*------------------------------------*/
+
+.container-left {
+  background: url(../img/photo1-1.jpg);
+  background-size: cover;
+  background-positon: top;
+  background-repeat: no-repeat;
+}
+
+
+.container-right {
+  height: 100vh;
+}
+
+
+.container-heading {
+  text-align: left;
+  color: #fff;
+  margin-top: 27vh;
+  margin-left: 4rem;
+  max-width: 80%;
+}
+
+
+.container-form {
+  margin-top: 9vh;
+}
+
+
+/*------------------------------------*\
+  #LOGO
+\*------------------------------------*/
+
+
+.navbar-brand img {
+  margin-left: 2.5rem;
+  margin-top: 7rem;
+  height: 4.5rem;
+}
+
+
+/*------------------------------------*\
+  #HEADINGS
+\*------------------------------------*/
+
+
+h1 {
+  font-size: 5.6rem !important;
+  font-weight: 600;
+  line-height: 1;
+  word-break: keep-all;
+
+
+
+
+}
+
+h2 {
+  font-size: 2.6rem !important;
+  font-weight: 300;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 4.6rem !important;
+  font-weight: 500;
+  line-height: 1;
+  color: #1ea69a;
+  margin-bottom: 3.5rem;
+}
+
+h4 {
+  font-size: 2.4rem !important;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 2.8rem;
+
+}
+
+p {
+  line-height: 1.2;
+  margin-top: -2rem;
+  font-size: 1.6rem;
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: rgba(30,166,154, .1);
+  color: #1ea69a;
+  font-size: 1.6rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 2rem;
+  padding: .7rem 4rem .7rem 4rem;
+
+}
+
+
+/*------------------------------------*\
+  #FORM
+\*------------------------------------*/
+
+.container-form {
+  max-width: 55rem;
+}
+
+.form-group {
+  margin-top: 2rem;
+  border-radius: 0;
+  border-bottom: .1rem solid #8e8e8e;
+}
+
+.form-control {
+  color: #515151;
+  font-size: 2.66rem;
+  font-weight: 300;
+  outline: none;
+  border: none;
+  padding: .375rem 0;
+}
+
+  /* Removes default Boostrap 4 input outline styles */
+  .form-control:focus {
+    border-color: inherit;
+    box-shadow: none;
+  }
+
+/* select field; selector is taken using dev tools, thus might be confusing */
+select.form-control:not([size]):not([multiple]) {
+  height: 6rem;
+  color: #515151;
+}
+
+label {
+  color: #515151;
+  font-size: 2.13rem;
+  font-weight: 300;
+}
+
+/* Buttons */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+  #MEDIA QUERIES
+\*------------------------------------*/
